@@ -83,3 +83,13 @@ add_option($name, $value, $deprecated, $autoload);
 
 \$autoload: LLeva como valor [yes,no] y si es afirmativo la opcion sera cargada por *wp_load_alloptions*.
 
+```php
+get_option($option);
+```
+Como su nombre lo indica recupera la información de una opción.
+
+```php
+update_option($option_name, $newvalue);
+```
+Esta función se utiliza para actualizar oh crear una opción, wordpress la recomienda usar por encima de add_option.
+
