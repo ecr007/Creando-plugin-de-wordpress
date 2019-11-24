@@ -76,7 +76,10 @@ add_option($name, $value, $deprecated, $autoload);
 ```
 
 \$name: Nombre o key de la opcion
+
 \$valie: Valor
+
 \$deprecated: NO se usa este parametro, pronto se eliminara, se le agrega null si se quiere usar el siguirente parametro.
+
 \$autoload: LLeva como valor [yes,no] y si es afirmativo la opcion sera cargada por *wp_load_alloptions*.
 
