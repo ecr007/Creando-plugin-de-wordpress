@@ -6,6 +6,7 @@
 ## Rutas
 
 plugin_dir_path() -> Retorna el path absoluto a la carpeta de los plugin
+
 plugins_url () -> URL a la carpeta de los plugin
 
 ## Seguridad
