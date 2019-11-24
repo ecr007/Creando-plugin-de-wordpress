@@ -60,3 +60,19 @@ Log de cambios
 == Upgrade Notice ==
 Noticias de la actualización, maximo 300 caracteres.
 ```
+
+## Base de datos (Persistencia)
+
+Hay varios metodos de almacenar información en wordpress con los plugin o en el uso general del wordpress.
+
+### Options
+
+Las opciones son una funcionalidad para almacenar, cadenas, arreglos o objetos con el metodo clave valor.
+
+* Nota: no se recomienda almacenar mas de 10 option, los ideal seria guardar un solo con un mismo nombre y recuperar la informacion, concatenar y volver a guardar.
+
+```php
+add_option($name, $value, $deprecated, $autoload);
+```
+
+\$name: Nombre o key de la opcion
